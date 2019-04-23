@@ -1,0 +1,33 @@
+{
+  "name": "multer_upload_files",
+  "version": "1.0.0",
+  "description": "Uploading Files on MongoDB using Multer",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishant1596/multer_upload_files.git"
+  },
+  "author": "Nishant Soni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishant1596/multer_upload_files/issues"
+  },
+  "homepage": "https://github.com/nishant1596/multer_upload_files#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.5.3",
+    "multer": "^1.4.1",
+    "multer-gridfs": "0.0.1",
+    "multer-gridfs-storage": "^3.2.3",
+    "path": "^0.12.7",
+    "supervisor": "^0.12.0"
+  }
+}
